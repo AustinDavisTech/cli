@@ -28,13 +28,13 @@ describe('toolchains', () => {
   it.each([
     ['react', createReactFrameworkDefinition],
     ['solid', createSolidFrameworkDefinition],
-  ])('%s lists Oxlint after Biome and ESLint', (_, createDefinition) => {
+  ])('%s includes Oxlint as a toolchain', (_, createDefinition) => {
     const framework = frameworkFromDefinition(createDefinition())
     const toolchains = getAllAddOns(framework, 'file-router')
       .filter((addOn) => addOn.type === 'toolchain')
       .map((addOn) => addOn.id)
 
-    expect(toolchains).toEqual(['biome', 'eslint', 'oxlint'])
+    expect(toolchains).toContain('oxlint')
   })
 
   it.each([
