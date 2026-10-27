@@ -46,7 +46,7 @@ Available options:
 - `--template <type>`: Choose between `file-router`, `typescript`, or `javascript`
 - `--tailwind` / `--no-tailwind`: Deprecated compatibility flags; accepted but ignored (Tailwind is always enabled)
 - `--package-manager`: Specify your preferred package manager (`npm`, `yarn`, `pnpm`, `bun`, or `deno`)
-- `--toolchain`: Specify your toolchain solution for formatting/linting (`biome`, `eslint`)
+- `--toolchain`: Specify your toolchain solution for formatting/linting (`biome`, `eslint`, `oxlint`)
 - `--no-git`: Do not initialize a git repository
 - `--add-ons`: Enable add-on selection or specify add-ons to install
 

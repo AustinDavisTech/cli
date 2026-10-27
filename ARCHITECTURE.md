@@ -23,7 +23,7 @@ packages/create/src/frameworks/
 ├── react/
 │   ├── project/base/      # Base project template
 │   ├── add-ons/           # Add-on implementations
-│   ├── toolchains/        # eslint, biome
+│   ├── toolchains/        # eslint, biome, oxlint
 │   ├── hosts/             # vercel, netlify, cloudflare
 │   └── examples/          # Demo projects
 └── solid/
