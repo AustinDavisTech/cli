@@ -125,7 +125,7 @@ Templates (`.ejs` files) have access to:
 
 | Range | Use Case |
 |-------|----------|
-| 0-10 | Toolchains (eslint, biome) |
+| 0-10 | Toolchains (eslint, biome, oxlint) |
 | 20-30 | Core libraries (start, query) |
 | 30-50 | UI foundations (shadcn, form) |
 | 100-150 | Feature add-ons (clerk, sentry) |

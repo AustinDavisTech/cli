@@ -66,6 +66,8 @@ Setting this flag to `biome` will configure it as your toolchain of choice, addi
 
 Setting this flag to `eslint` will configure it as your toolchain of choice, adding an `eslint.config.js` and `prettier.config.js` to the root of the project, as well as a `.prettierignore` file. Consult the [eslint documentation](https://eslint.org/docs/latest/) and [prettier documentation](https://prettier.io/docs/) for further customization.
 
+Setting this flag to `oxlint` will configure it as your toolchain of choice, adding an `.oxlintrc.json` to the root of the project. Consult the [oxlint documentation](https://oxc.rs/docs/guide/usage/linter) for further customization.
+
 ## Add-ons (experimental)
 
 You can enable add-on selection:
